@@ -68,7 +68,6 @@
     color: var(--dark-grey);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 32px 0px;
     width: 100%;
 
@@ -120,6 +119,7 @@
     .checkbox-wrapper {
       flex-direction: row;
       justify-content: center;
+      justify-content: space-between;
     }
   }
 }
