@@ -8,6 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { Location } from './types/locations.interface';
 import { GetUnitsService } from './services/get-units.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,7 @@ import { GetUnitsService } from './services/get-units.service';
     LegendComponent,
     CardsListComponent,
     CommonModule,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
